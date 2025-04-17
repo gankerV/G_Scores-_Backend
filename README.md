@@ -64,14 +64,14 @@ spring.flyway.baseline-on-migrate=false
 
 ```properties
 server.port=${PORT:8080}
-spring.datasource.url=jdbc:mysql://localhost:3306/g_scores 
-spring.datasource.username=root 
-spring.datasource.password=your_password 
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver 
+spring.datasource.url=jdbc:mysql://localhost:3306/g_scores
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-spring.flyway.baseline-on-migrate=false 
-spring.flyway.url=jdbc:mysql://localhost:3306/g_scores 
-spring.flyway.user=root 
+spring.flyway.baseline-on-migrate=false
+spring.flyway.url=jdbc:mysql://localhost:3306/g_scores
+spring.flyway.user=root
 spring.flyway.password=your_password
 ```
 
